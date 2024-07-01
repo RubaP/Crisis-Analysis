@@ -1,0 +1,35 @@
+{
+  "data-directory": "",
+  "mainstream-sources": ["Mail", "Mirror", "Times", "Guardian"],
+  "mainstream-data-collection": {
+    "file-prefix": "Times",
+    "port": "9222",
+    "start-date": "01/01/2014",
+    "end-date": "15/03/2023",
+    "source-label": "The Times (London)",
+    "page-count": 50,
+    "login-to-nexis": true,
+    "username": "",
+    "password": "",
+    "keywords": ["cost of living" , "climate crisis" , "climate scam" , "climate change" , "climate emergency" , "energy bill" , "energy price" , "energy policy", "energy crisis" , "energy cost" , "energy efficiency" , "energy transition" , "fuel crisis" , "fuel poverty" , "fuel price" , "fossil fuel" , "food poverty" , "food shortage" , "food crisis" , "gas price" , "inflation" , "net zero" , "poverty" , "price cap" , "renewable" , "sustainability"],
+    "download-folder": ""
+  },
+  "mainstream-filtration": {
+    "relevant-keywords": ["energy bill", "energy price", "energy policy", "energy crisis", "energy cost", "energy efficiency", "energy transition", "fuel crisis", "fuel poverty", "fuel price", "fossil fuel", "gas price", "net zero", "price cap", "renewables", "renewable energy"],
+    "relevant-geography": ["london", "england", "united kingdom", "ireland", "scotland", "brighton"],
+    "irrelevant-section-news": ["AUSTRALIA NEWS", "WORLD NEWS", "US NEWS"]
+  },
+  "relevancy-ranking": {
+    "discussion-threshold": 65,
+    "popularity-threshold": 25,
+    "growth-rate": 1.1,
+    "seed-keys": ["energy crisis", "energy policy"]
+  },
+  "analysis": {
+    "polarization-threshold": 0.8,
+    "visualization": {
+      "num-of-actors": 30,
+      "num-of-issues": 50
+    }
+  }
+}
